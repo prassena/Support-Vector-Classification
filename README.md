@@ -15,12 +15,12 @@ this has two paramater K(x,y) = (x^T . y + c)^d ,c and d ,if we find the right o
 Dual Form with RBF kernal is Generalized kernal ,which has two hyper paramater C and gamma.
 C is multiplied with Loss .Gamma is like K in KNN
 
-C is high overfits                  C is low it Under fits 
-Gamma is high it underfits          Gamma is low it overfits
+*C is high overfits                  *C is low it Under fits 
+*Gamma is high it underfits          *Gamma is low it overfits
 
 When C is high the Margine will be thin and when gamma is high the margine will be smooth.
 can use GridSearchCV to find these Hyper paramaters.
 
 # Facing error while loading IPYNB "Sorry, something went wrong. Reload?"
 
-please click the following link https://nbviewer.jupyter.org/github/prassena/Linear-regression/blob/master/Linear%20Regression%20%26%20Batch%20SGD%20.ipynb
+please click the following link https://nbviewer.jupyter.org/github/prassena/Support-Vector-Classification/blob/master/Support%20Vector%20Classifier.ipynb
