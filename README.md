@@ -3,7 +3,8 @@ SVM applied on DonorsChoose Dataset
 
 Under support vector Machine popularly known as SVM has two sub_types Support Vector classifier and Support Vector Regression.
 
-SVC have two forms :* Primal Form (not popular)
+SVC have two forms :
+                    * Primal Form (not popular)
                     * Dual Form (mostly used )
                     
 Dual Form with linear kernal is similar to Logistic Regression only difference is that it finds a plain which maximize margine ,
@@ -15,8 +16,13 @@ this has two paramater K(x,y) = (x^T . y + c)^d ,c and d ,if we find the right o
 Dual Form with RBF kernal is Generalized kernal ,which has two hyper paramater C and gamma.
 C is multiplied with Loss .Gamma is like K in KNN
 
-*>C is high overfits                  *>C is low it Under fits 
-*>Gamma is high it underfits          *>Gamma is low it overfits
+>C is high overfits
+
+>C is low it Under fits 
+
+>Gamma is high it underfits 
+
+>Gamma is low it overfits
 
 When C is high the Margine will be thin and when gamma is high the margine will be smooth.
 can use GridSearchCV to find these Hyper paramaters.
