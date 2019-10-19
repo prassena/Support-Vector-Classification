@@ -4,7 +4,9 @@ SVM applied on DonorsChoose Dataset
 Under support vector Machine popularly known as SVM has two sub_types Support Vector classifier and Support Vector Regression.
 
 SVC have two forms :
+
                     * Primal Form (not popular)
+                    
                     * Dual Form (mostly used )
                     
 Dual Form with linear kernal is similar to Logistic Regression only difference is that it finds a plain which maximize margine ,
